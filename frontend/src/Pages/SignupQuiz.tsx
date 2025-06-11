@@ -197,11 +197,13 @@ const SignupQuiz = () => {
               }
             >
               {[
+                "Data Science",
+                "Machine Learning",
+                "Développement mobile",
                 "Développement web",
-                "Applications mobiles",
-                "Intelligence artificielle",
-                "Bases de données",
-                "Sécurité informatique",
+                "Cybersécurité",
+                "Automatisation",
+                "Automatisation / Scripts",
               ].map((option) => (
                 <FormControlLabel
                   key={option}
